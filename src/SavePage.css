@@ -1,0 +1,26 @@
+/* SavePage specific styles */
+.custom-container {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 24rem;
+    height: 24rem;
+  }
+  
+  .custom-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #6b46c1;
+  }
+  
+  .custom-list {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .custom-list-item {
+    margin-bottom: 0.5rem;
+  }
+  

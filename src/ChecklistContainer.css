@@ -1,0 +1,66 @@
+/* ChecklistContainer specific styles */
+.custom-container {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 24rem;
+  }
+  
+  .custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid #3182ce;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #3182ce;
+
+  }
+  
+  .custom-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg) scaleX(-1);
+    width: 0.6rem;
+    height: 0.3rem;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform-origin: center;
+  }
+  
+  .custom-checkbox + label {
+    cursor: pointer;
+  }
+  
+  .custom-button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #f59e0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .custom-button:hover {
+    background-color: #ed8936;
+  }
+  
+
+  .my-hr{
+    border-color: #d3d3d338;
+    border-width: 0.2px 0 0 0;
+  }
