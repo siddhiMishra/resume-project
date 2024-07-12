@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/siddhiMishra/resume-project/static/css/main.da7b96be.css",
+    "main.js": "/siddhiMishra/resume-project/static/js/main.91336df0.js",
+    "static/js/453.0a36081d.chunk.js": "/siddhiMishra/resume-project/static/js/453.0a36081d.chunk.js",
+    "index.html": "/siddhiMishra/resume-project/index.html",
+    "main.da7b96be.css.map": "/siddhiMishra/resume-project/static/css/main.da7b96be.css.map",
+    "main.91336df0.js.map": "/siddhiMishra/resume-project/static/js/main.91336df0.js.map",
+    "453.0a36081d.chunk.js.map": "/siddhiMishra/resume-project/static/js/453.0a36081d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da7b96be.css",
+    "static/js/main.91336df0.js"
+  ]
+}
